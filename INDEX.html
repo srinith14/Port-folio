@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BBZ3716LM2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-BBZ3716LM2');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Srinith Rao Bichinepally</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/05f1bca9fd.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F7F7F7; /* Ivory background */
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .hero {
+            background: #1D3557; /* Navy Blue */
+            color: #F2C94C; /* Gold */
+            padding: 50px 0;
+            text-align: center;
+            position: relative;
+        }
+        .hero .circle-image img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .hero h1, .hero h2 {
+            margin: 0;
+        }
+        .sidenav {
+            height: 100%;
+            width: 250px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #1D3557; /* Navy Blue */
+            overflow-x: hidden;
+            transition: 0.3s;
+            padding-top: 60px;
+        }
+        .sidenav a {
+            padding: 8px 16px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #F2C94C; /* Gold */
+            display: block;
+            transition: 0.3s;
+        }
+        .sidenav a:hover {
+            color: #F7F7F7; /* Ivory */
+        }
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+        .sidenav .item {
+            font-size: 20px;
+        }
+        .about, .projects, .feedback {
+            padding: 20px;
+            background-color: #1D3557; /* Navy Blue */
+            color: #F7F7F7; /* Ivory */
+        }
+        .about img, .projects img {
+            border-radius: 10px;
+        }
+        .projectcards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .card {
+            background-color: #FFFFFF; /* White */
+            color: #333;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            width: 300px;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .buttons a {
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: #F7F7F7; /* Ivory */
+            background-color: #1D3557; /* Navy Blue */
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .buttons a:hover {
+            background-color: #F2C94C; /* Gold */
+        }
+        .feedback form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .feedback input, .feedback textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .feedback .send {
+            background-color: #1D3557; /* Navy Blue */
+            color: #F7F7F7; /* Ivory */
+            border: none;
+            cursor: pointer;
+        }
+        .feedback .send:hover {
+            background-color: #F2C94C; /* Gold */
+        }
+        .footer {
+            background-color: #1D3557; /* Navy Blue */
+            color: #F7F7F7; /* Ivory */
+            padding: 10px;
+            text-align: center;
+        }
+        .footer .mlinks a {
+            color: #F7F7F7; /* Ivory */
+            text-decoration: none;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <svg onclick="openNav();" style="fill:#F7F7F7;" class="toggle-btn" viewBox="0 0 100 80" width="40" height="40">
+        <rect width="100" height="20"></rect>
+        <rect y="30" width="100" height="20"></rect>
+        <rect y="60" width="100" height="20"></rect>
+    </svg>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a class="item" onclick="closeNav()" href="#">Home</a>
+        <a class="item" onclick="closeNav()" href="#about">About</a>
+        <a class="item" onclick="closeNav()" href="#projects">Projects</a>
+        <a class="item" onclick="closeNav()" href="#feedback">Contact Me</a>
+    </div>
+    <div id="particles-js" class="hero">
+        <div class="circle-image">
+            <img src="C:\Users\Karthik Chowdary\Desktop\srinith\photo.png" alt="Profile Image">
+        </div>
+        <h1 id="title"> <span id="mm">Srinith Rao Bichinepally</span></h1>
+        <h2>Grad Student at George Washington University | Software Engineer | #talksaboutAI</h2>
+        <a id="download-resume" style="margin-left:20px;" href="C:\Users\Karthik Chowdary\Desktop\sresume.pdf" download>Curriculum Vitae</a>
+        <div class="social-icons">
+            <a style="margin-left:-20px;" href="https://github.com/srinith14" class="icon" target="_blank"><i class="fab fa-github"></i></a>
+            <a style="margin-left:20px;" href="https://www.linkedin.com/in/srinith-ab0848241/" class="icon" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+    <div class="about">
+        <div class="text" id="about">
+            <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true">Who am I?</h1>
+            <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true" src="C:\Users\Karthik Chowdary\Desktop\srinith\portfolio-who ami.jpg" class="img-fluid float-start shadow p-1 mb-2" width="50%" alt="...">
+            <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000" data-aos-once="true">
+                By day, I delve into the worlds of AI and robotics, always pushing the boundaries of technology. When the workday ends, I unwind with a good book, experiment with card buildings, and lose myself in music. Sci-fi novels fuel my imagination, while building intricate card structures and enjoying good tunes help me relax and reflect. Spontaneity keeps life exciting, creating lasting memories, while coding ideas keep my mind buzzing with anticipation for what’s next.
+                <br><strong>#AIJunkie</strong>
+            </p>
+        </div>
+    </div>
+    <div id="projects" class="projects">
+        <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true">Projects</h1>
+        <div class="projectcards">
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true" class="card shadow-lg">
+                <img src="C:\Users\Karthik Chowdary\Desktop\srinith\URL.png" alt="shortening-url-service">
+                <h2>Shortening URL Service</h2>
+                <p>A URL shortening service to make long URLs short and manageable.</p>
+                <a href="https://github.com/srinith14/Shortening--URL-service" target="_blank" class="buttons">View on GitHub</a>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true" class="card shadow-lg">
+                <img src="C:\Users\Karthik Chowdary\Desktop\srinith\NAMI.png" alt="virtual-assistant-nami">
+                <h2>Virtual Assistant - NAMI</h2>
+                <p>A virtual assistant application with various functionalities for user convenience.</p>
+                <a href="https://github.com/srinith14/VIRTUAL-ASSISTANT--NAMI-" target="_blank" class="buttons">View on GitHub</a>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true" class="card shadow-lg">
+                <img src="C:\Users\Karthik Chowdary\Desktop\srinith\BVoting.webp" alt="blockchain-e-voting">
+                <h2>Blockchain E-Voting</h2>
+                <p>A blockchain-based electronic voting system ensuring transparency and security.</p>
+                <a href="https://github.com/srinith14/Blockchain_E-Voting" target="_blank" class="buttons">View on GitHub</a>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true" class="card shadow-lg">
+                <img src="C:\Users\Karthik Chowdary\Desktop\srinith\AIO.jpg" alt="web-aio">
+                <h2>WEB-AIO</h2>
+                <p>A comprehensive web application integrating various functionalities.</p>
+                <a href="https://github.com/srinith14/WEB-AIO" target="_blank" class="buttons">View on GitHub</a>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true" class="card shadow-lg">
+                <img src="C:\Users\Karthik Chowdary\Desktop\srinith\key.jpg" alt="keyword-extraction-algo">
+                <h2>Keyword Extraction Algorithm</h2>
+                <p>An algorithm for extracting meaningful keywords from text data.</p>
+                <a href="https://github.com/srinith14/Keyword-Extraction-Algo" target="_blank" class="buttons">View on GitHub</a>
+            </div>
+        </div>
+    </div>
+    <div id="feedback" class="feedback">
+        <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true">Contact Me</h1>
+        <form action="https://formspree.io/f/mknakwld" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="send">Send</button>
+        </form>
+    </div>
+    <div class="footer">
+        <p>© 2024 by Srinith Rao Bichinepally</p>
+        <div class="mlinks">
+            <a href="https://github.com/srinith14" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/srinith-ab0848241/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-0evHe/X+R+I/54N8Q4dNCQU5XQRY+l3P4W6T3FQIIYfF3KjS1wJ0mKqDYuGMSq" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</body>
+</html>
